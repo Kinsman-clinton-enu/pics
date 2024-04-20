@@ -1,8 +1,35 @@
-# React + Vite
+# My Gallery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction:
+THis pics App is a React application that allows users to search any images they want.
 
-Currently, two official plugins are available:
+## Table of Content:
+- [Overview](#Overview)
+- [My process](#Myprocess)
+- [Author](#Author)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Overview
+
+### Screenshot
+
+![](./public/pic.jpg)
+
+### Links
+
+- solution Url: [Repo](https://github.com/Kinsman-clinton-enu/pics.git)
+
+## Myprocess
+
+### Built with
+- React
+- Semantic UI
+- CSS custom properties
+- React ref
+
+### What I learned
+
+- I learned how to use react to access to any DOM element directly using React.creatRef()
+
+## Author 
+
+- Twitter - [@kinsman0418](https://x.com/kinsman0418?s=09)

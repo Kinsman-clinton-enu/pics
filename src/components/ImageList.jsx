@@ -1,13 +1,16 @@
 /* eslint-disable react/jsx-key */
 /* eslint-disable react/prop-types */
+import './ImageList.css'
+import ImageCard from './ImageCard'
+
 
 const ImageList = (props) => {
-   const images =  props.images.map(({id, largeImageURL, tag}) =>
+   const images =  props.images.map(image =>
     {
-        return <img key={id} src={largeImageURL} alt={tag} />
+        return <ImageCard key={image.id} image={image} />
     })
     return(
-        <div>{images}</div>
+        <div className='image-list'>{images}</div>
     );
 }
 
